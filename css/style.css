@@ -1,37 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
  font-family: sans-serif;
 }
-/*
-html{
-    scroll-behavior: smooth;
-}
 
-::-webkit-scrollbar{
-    width: 15px;
-}
-
-::-webkit-scrollbar-track{
-    border-radius: 5px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
-}
-
-1= #f12711
-2= #f5af19
-
-::-webkit-scrollbar-thumb{
-    border-radius: 5px;
-    background: linear-gradient(to top, #f12711 , #f5af19);
-}
-*/
 section{
     width: 100%;
     height: 100%;
     background-image: url(img/zapatilla.png);
     background-size: cover;
     background-position: center;
+
 }
 
 section nav{
@@ -58,7 +38,7 @@ section nav .logo{
 
 section nav .logo span{
     color: #ff0d0dff;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
 }
 
 section nav ul{
@@ -75,22 +55,22 @@ section nav ul li a{
     color: black;
     transition: 0.2s;
 }
-/*
+
 section nav ul li a:hover{
     color: #f12711;
-}*/
+}
 
 section nav .icons i{
     margin: 0 4px;
-    /*cursor: pointer;
-    font-size: 18px;*/
+    cursor: pointer;
+    font-size: 18px;
     font-size: 20px;
     transition: 0.3s;
 }
-/*
+
 section nav .icons i:hover{
     color: #f12711;
-}*/
+}
 
 section .main .main_content{
     display: flex;
@@ -102,9 +82,6 @@ section .main .main_content .main_text h1{
     font-size: 90px;
     line-height: 70px;
     font-family: pyxidium quick;
-   /* background:  linear-gradient(to right, #f12711,#f5af19);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
     color: red;
     position: relative;
     top: 45px;
@@ -113,9 +90,6 @@ section .main .main_content .main_text h1{
 
 section .main .main_content .main_text h1 span{
     font-size: 70px;
-   /*background: linear-gradient(to right, #f12711,#f5af19);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
     color: #d64200ff;
 }
 
@@ -134,24 +108,6 @@ section .main .main_content .main_image img{
     left: 20px;
     top: 75px;
 }
-/*
-section .main .social_icon{
-    position: absolute;
-    top: 30%;
-    left: 98%;
-   transform: translate(-50%,-50%);
-    font-size: 19px;
-}
-
-section .main .social_icon i{
-    margin: 8px 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}*/
-/*
-section .main .social_icon i:hover{
-    color: #f12711;
-}*/
 
 section .main .button{
     position: absolute;
@@ -159,8 +115,9 @@ section .main .button{
     margin: 1.5em;
     padding: 10px 20px;
     border-radius: 30px;
-   /* background: linear-gradient(to right,#f12711, #f5af19);*/
-   background: red;
+    background: linear-gradient(to right,#f12711, #f5af19);
+    background: red;
+    bottom: 70px;
 }
 
 section .main .button a{
@@ -173,10 +130,10 @@ section .main .button i{
     margin-left: 5px;
     transition: 0.3s;
 }
-/*
+
 section .main .button:hover i{
     transform: translateX(6px);
-}*/
+}
 
 /*Footer*/
 
