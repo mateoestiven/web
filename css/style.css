@@ -233,3 +233,69 @@ footer .footer_main .tag .social_link a:hover::after{
     left: 0;
 }*/
 
+/* images */
+
+
+#h2_zapatillas {
+    margin-top: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.images {
+    width: 250px;
+    height: 200px;
+}
+
+.zapatillas_nike, .zapatillas_adidas, .zapatillas_puma, .zapatillas_max {
+    margin: 50px;
+}
+
+.section_zapatillas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_zapatillas li {
+    margin-bottom: 15px;
+    text-align: center;
+    list-style: none;
+    color: #f12711;
+    font-size: 25px;
+}
+
+.section_zapatillas h3 {
+    margin: 8px;
+    color: #1c0080;
+}
+
+.images:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 1px blue;
+}
+
+.section_zapatillas li:hover {
+    text-decoration: overline;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f12711;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#boton:hover {
+    border: solid 2px;
+    background-color: #c71400;
+    text-decoration: double;
+
+}
+
+
+
