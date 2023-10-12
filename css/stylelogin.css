@@ -1,5 +1,7 @@
 /* login */
-
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +9,8 @@ body {
     padding: 0;
 }
 
-.login-container {
+.login_container {
+    padding: 10px;
     width: 300px;
     margin: 100px auto;
     padding: 20px;
@@ -19,16 +22,16 @@ body {
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #f12711;
 }
 
-.form-group {
-    margin-bottom: 20px;
+.button {
+    margin: 40px 10px 20px 0px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin: 10px 0;
 }
 
 input[type="text"],
@@ -43,7 +46,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #d64200ff;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -51,5 +54,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f12711;
 }

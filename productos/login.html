@@ -9,19 +9,21 @@
 <body>
 
     <h2><a href="../index.html">Volver atras</a></h2>
-    <div class="login-container">
-        <h2>Iniciar Sesión</h2>
-        <form action="tu_script_de_autenticacion.php" method="POST">
-            <div class="form-group">
+    <div class="login_container">
+        <h2>Iniciar sesion</h2>
+        <div>
+            <div id="usuario">
                 <label for="usuario">Usuario:</label>
-                <input type="text" id="usuario" name="usuario" required>
+                <input type="text" name="usuario">
+                </div>
+                <br>
+                <div id="contraseña">
+                <label for="contraseña">Contraseña:</label>
+                <input type="text" name="contraseña">
             </div>
-            <div class="form-group">
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            </div>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
+        </div>
+        <button class="button" type="button ">Continuar</button>
+        </div>
     </div>
 </body>
 </html>
