@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="../css/stylelogin.css">
+    
 </head>
 <body>
 
@@ -14,16 +15,19 @@
         <div>
             <div id="usuario">
                 <label for="usuario">Usuario:</label>
-                <input type="text" name="usuario">
+                <input id="user" type="text" name="usuario">
                 </div>
                 <br>
                 <div id="contraseña">
                 <label for="contraseña">Contraseña:</label>
-                <input type="text" name="contraseña">
+                <input id="password" type="text" name="contraseña">
             </div>
         </div>
-        <button class="button" type="button ">Continuar</button>
+        <button onclick="validarFormulario()"  class="button" type="button ">Continuar</button>
         </div>
     </div>
+    <script src="../js/function.js"></script>
 </body>
-</html>
+
+
+</html> 
